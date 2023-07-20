@@ -2,14 +2,18 @@
     border: 1px solid red;
 } */
 
-header {
-    display: flex;
+body {
     width: 95%;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
     justify-content: space-between;
     border-bottom: 5px solid #C27404;
     background-color: #70A1C2;
     color: #1A5175;
+    margin-top: 20px;
 }
 
 header nav ul {
@@ -24,8 +28,17 @@ header nav ul li {
     padding: 10px;  
 }
 
+h1 {
+    padding-left: 20px;
+}
+
 a {
     color: #1A5175;
+}
+
+.header-image {
+    max-width: auto;
+    max-height: 80px;
 }
 
 .link {
