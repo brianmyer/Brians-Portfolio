@@ -1,0 +1,16 @@
+/* * {
+    border: 1px solid red;
+} */
+
+header {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+}
