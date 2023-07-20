@@ -24,6 +24,14 @@ header nav ul li {
     padding: 10px;  
 }
 
+a {
+    color: #1A5175;
+}
+
 .link {
     text-decoration: none;
+}
+
+.link:hover {
+    color: #C27404;
 }
