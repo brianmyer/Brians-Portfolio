@@ -7,10 +7,23 @@ header {
     width: 95%;
     margin: 0 auto;
     justify-content: space-between;
+    border-bottom: 5px solid #C27404;
+    background-color: #70A1C2;
+    color: #1A5175;
 }
 
 header nav ul {
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
+    width: fit-content;
+    margin: 20px 10px;
+}
+
+header nav ul li {
+    padding: 10px;  
+}
+
+.link {
+    text-decoration: none;
 }
