@@ -1,15 +1,19 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 :root {
     --regular-size: 20px;
+    --border-color: #C27404;
+    --light-blue: #70A1C2;
+    --dark-blue: #1A5175;
+    --box-shadow: 10px 5px 5px rgb(69, 67, 67);
 }
 
 body {
     width: 95%;
     margin: 0 auto;
-    background-color: #1A5175;
+    background-color: var(--dark-blue);
 
 }
 
@@ -17,9 +21,9 @@ header,
 footer {
     display: flex;
     justify-content: space-between;
-    border-bottom: 5px solid #C27404;
-    border-top: 5px solid #C27404;
-    background-color: #70A1C2;
+    border-bottom: 5px solid var(--border-color);
+    border-top: 5px solid var(--border-color);
+    background-color: var(--light-blue);
     color: #1A5175;
     margin-top: 20px;
     align-items: center;
@@ -41,16 +45,19 @@ footer nav ul li {
 
 h1 {
     font-size: 50px;
+    padding-left: 150px;
 }
 
-h1,
+h2 {
+    padding-left: 20px;
+    color: var(--light-blue);
+    font-size: 40px;
+}
+
 h3 {
     padding-left: 20px;
-}
-
-h2,
-h3 {
-    font-size: 30px;
+    color: var(--dark-blue);
+    font-size: 40px;
 }
 
 a {
@@ -60,6 +67,9 @@ a {
 
 p {
     font-size: var(--regular-size);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header-image {
@@ -92,12 +102,23 @@ p {
 }
 
 .project-image-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 400px;
-    padding: 1% 25%;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px
 }
 
 .project-image {
     height: 200px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px
+}
+
+.project-image-main:hover, 
+.project-image:hover {
+    opacity: .5;
 }
 
 @media screen and (max-width: 926px) {
