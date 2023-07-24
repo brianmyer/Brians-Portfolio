@@ -90,6 +90,7 @@ p {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
     /* grid-template-areas:
         "project1 project1"
         "project2 project3"
