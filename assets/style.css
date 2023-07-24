@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 :root {
     --regular-size: 20px;
@@ -69,7 +69,6 @@ h2 {
 h3 {
     margin: auto;
     color: var(--dark-blue);
-    /* font-size: 40px; */
 }
 
 p {
@@ -83,6 +82,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 2% 5% 2% 0;
 }
 
 .header-image {
@@ -95,6 +95,11 @@ p {
     text-decoration: none;
 }
 
+.contact-link {
+    text-decoration: none;
+    padding: 50px;
+}
+
 .link:hover,
 .contact-link:hover {
     color: #C27404;
@@ -105,7 +110,7 @@ p {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 20px;
+    padding: 30px;
 }
 
 .project-image-main {
@@ -123,9 +128,15 @@ p {
     border-radius: 10px
 }
 
-.project-image-main:hover, 
+.project-image-main:hover,
 .project-image:hover {
     opacity: .5;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 2% 0 2% 0;
 }
 
 @media screen and (max-width: 926px) {
