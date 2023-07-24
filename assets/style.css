@@ -91,16 +91,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 20px;
-    /* grid-template-areas:
-        "project1 project1"
-        "project2 project3"
-        "project4 project5"; */
 }
-
-/* .main-project {
-    width: 90%;
-    margin: 0 auto;
-} */
 
 .project-image-main {
     display: block;
@@ -135,24 +126,3 @@ p {
         grid-template-rows: repeat(4, 200px)
     }
 }
-
-/* 
-#project1 {
-    grid-area: project1;
-}
-
-#project2 {
-    grid-area: project2;
-}
-
-#project3 {
-    grid-area: project3;
-}
-
-#project4 {
-    grid-area: project4;
-}
-
-#project5 {
-    grid-area: project5;
-} */
