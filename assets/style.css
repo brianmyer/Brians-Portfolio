@@ -105,6 +105,32 @@ p {
     color: #C27404;
 }
 
+.image-title-main {
+    position: relative;
+    bottom: 17vh;
+    left: 30vw;
+    background-color: beige;
+    color: var(--dark-blue);
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.image-title {
+    position: relative;
+    bottom: 17vh;
+    left: 5vw;
+    background-color: beige;
+    color: var(--dark-blue);
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
 .other-projects {
     gap: 20px;
     text-align: center;
@@ -144,11 +170,19 @@ p {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(2, 200px)
     }
+    header,
+    footer {
+        width: fit-content;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .other-projects {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 200px)
+    }
+    header,
+    footer {
+        width: fit-content;
     }
 }
