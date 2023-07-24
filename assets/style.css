@@ -107,7 +107,7 @@ p {
     margin-right: auto;
     height: 400px;
     box-shadow: var(--box-shadow);
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .project-image {
