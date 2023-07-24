@@ -39,7 +39,7 @@ main nav ul {
 }
 
 .link {
-    color: #1A5175;
+    color: var(--dark-blue);
     font-size: var(--regular-size);
     padding: 10px;
 }
